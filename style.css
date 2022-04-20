@@ -1,0 +1,31 @@
+.wow {
+  width: 100px;
+}
+
+/* justify-content: space-around; cuál es la principal diferencia?*/
+.parents {
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  /*flex-flow: column wrap;*/
+  /*justify-content: center;*/
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: baseline; 
+}
+
+.box {
+  background-color:red;
+  width: 100px;
+  height: 100px;
+  color: yellow;
+}
+
+#dos {
+  background:black;
+  color: white;
+}
+
+#uno {
+  height: 150px;
+}
